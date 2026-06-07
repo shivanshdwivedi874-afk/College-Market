@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f1f3f6;
+}
+
+/* HEADER */
+header{
+  background:#2874f0;
+  color:white;
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header a{
+  color:white;
+  margin-left:10px;
+  text-decoration:none;
+}
+
+/* FORM */
+.form{
+  background:white;
+  margin:20px;
+  padding:15px;
+  border-radius:10px;
+}
+
+/* INPUT */
+input,textarea{
+  width:95%;
+  padding:10px;
+  margin:8px 0;
+}
+
+/* BUTTON */
+button{
+  background:#fb641b;
+  color:white;
+  border:none;
+  padding:10px;
+  cursor:pointer;
+}
+
+/* PRODUCTS GRID */
+#products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:10px;
+  padding:20px;
+}
+
+/* CARD */
+.card{
+  background:white;
+  padding:10px;
+  border-radius:10px;
+}
